@@ -1,5 +1,6 @@
-const Square = (num) => {
-  console.log(num ** 2);
+const calculateSquare = (num) => {
+  return num ** 2;
 }
 
-Square(10);
+console.log(calculateSquare(10));
+
